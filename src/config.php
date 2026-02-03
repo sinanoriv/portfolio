@@ -1,6 +1,6 @@
 <?php
 // config.php
-$host = 'localhost';       // EC2上のPostgresならlocalhost
+$host = '';       // EC2上のPostgresならlocalhost
 $port = '5432';
 $dbname = 'public.app_users';
 $user = 'postgres';

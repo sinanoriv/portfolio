@@ -2,7 +2,7 @@
 // config.php
 $host = '';       // EC2上のPostgresならlocalhost
 $port = '5432';
-$dbname = 'public';
+$dbname = 'postgres';
 $user = 'postgres';
 $password = 'postgres';
 

@@ -6,7 +6,7 @@ $dbname = 'public.app_users';
 $user = 'postgres';
 $password = 'postgres';
 
-$dsn = "pgsql:dbname={$dbname};host={$host};port={$port}"; // DSN[web:12]
+$dsn = "pgsql:dbname={$dbname};port={$port}"; // DSN[web:12]
 
 try {
     $pdo = new PDO($dsn, $user, $password);
